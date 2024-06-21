@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y2K Themed Website</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Full-Screen Slideshow -->
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="assets/images/slide1.jpg" alt="Slide 1">
+        </div>
+        <div class="slide fade">
+            <img src="assets/images/slide2.jpg" alt="Slide 2">
+        </div>
+        <div class="slide fade">
+            <img src="assets/images/slide3.jpg" alt="Slide 3">
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <!-- Scroll Down Section -->
+    <div class="content-section">
+        <div class="content-box">
+            <h1>Welcome to the Y2K Era</h1>
+            <p>This is where you can write stuff. Enjoy the retro-futuristic aesthetic!</p>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
